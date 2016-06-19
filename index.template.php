@@ -427,25 +427,7 @@ function googleTranslateElementInit() {
     pageLanguage: "en"
   }, "google_translate_element");
 }
-</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></div>
-
-<div id=\'laPlaceholder\'></div> 
-<script type="text/javascript"> 
-(function(d,t) { 
-var script = d.createElement(t); script.id = \'la_x2s6df8d\'; script.async = true; 
-script.src = \'//jazztrumpetlicks.com/liveagent/scripts/track.js\'; 
-var image = d.createElement(\'img\'); script.async = true; 
-image.src = \'//jazztrumpetlicks.com/liveagent/scripts/pix.gif\'; 
-script.onload = script.onreadystatechange = function() { 
-var rs = this.readyState; if (rs && (rs != \'complete\') && (rs != \'loaded\')) return; 
-LiveAgentTracker.createButton(\'474cdf4a\', this); 
-}; 
-var placeholder = document.getElementById(\'laPlaceholder\'); 
-placeholder.parentNode.insertBefore(script, placeholder); 
-placeholder.parentNode.insertBefore(image, placeholder); 
-placeholder.parentNode.removeChild(placeholder); 
-})(document, \'script\'); 
-</script>';
+</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></div>';
 
 if ($modSettings['badbehavior_display_stats']) {
 	if (!function_exists('bb2_insert_stats')) {
@@ -470,15 +452,7 @@ function template_html_below()
 	echo !empty($settings['forum_width']) ? '
 </div>' : '', '
 </div> <!-- bodycontainer closing div ->
-<!-- Kontera(TM);-->
-<script type=\'text/javascript\'>
-var dc_AdLinkColor = \'#ff0000\' ; 
-var dc_PublisherID = 94399 ; 
- 
-</script>
-<script type=\'text/javascript\' src=\'http://kona.kontera.com/javascript/lib/KonaLibInline.js\'>
-</script>
-<!-- end Kontera(TM) --> 
+
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src=\'" + gaJsHost + "google-analytics.com/ga.js\' type=\'text/javascript\'%3E%3C/script%3E"));
