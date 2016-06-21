@@ -193,8 +193,8 @@ function template_body_above()
     <input type="hidden" name="cx" value="partner-pub-0372492470050030:9of2c-ypc0g" />
     <input type="hidden" name="cof" value="FORID:10" />
     <input type="hidden" name="ie" value="ISO-8859-1" />
-    <input type="text" name="q" size="31" />
-    <input type="submit" name="sa" value="Search" />
+    <input type="text" name="q" size="20" />
+    <!--<input type="submit" name="sa" value="Search" />-->
   </div>
 </form>
 <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
